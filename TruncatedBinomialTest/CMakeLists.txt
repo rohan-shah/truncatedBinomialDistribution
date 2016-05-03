@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.1)
+add_executable(truncatedBinomialTest main.cpp)
+target_link_libraries(truncatedBinomialTest PUBLIC truncatedBinomialDistribution ${Boost_LIBRARIES} mpfr)
+target_include_directories(truncatedBinomialTest PRIVATE ${Boost_INCLUDE_DIRS})
+target_compile_definitions(truncatedBinomialTest PUBLIC BOOST_ALL_NO_LIB)
+if(NOT WIN32)
+	target_compile_features(truncatedBinomialTest PRIVATE cxx_rvalue_references)
+endif()
