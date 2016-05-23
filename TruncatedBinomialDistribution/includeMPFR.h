@@ -1,8 +1,11 @@
-#ifndef INCLUDER_MPFR_HEADER_GUARD
-#define INCLUDER_MPFR_HEADER_GUARD
+#ifndef INCLUDE_MPFR_TRUNCATED_BINOMIAL_DISTRIBUTION_HEADER_GUARD
+#define INCLUDE_MPFR_TRUNCATED_BINOMIAL_DISTRIBUTION_HEADER_GUARD
 #include <algorithm>
 //#include "mpreal.h"
 //typedef mpfr::mpreal mpfr_class;
 #include <boost/multiprecision/mpfr.hpp>
-typedef boost::multiprecision::static_mpfr_float_50 mpfr_class;
+namespace TruncatedBinomialDistribution
+{
+	typedef boost::multiprecision::static_mpfr_float_50 mpfr_class;
+}
 #endif 
