@@ -1,6 +1,6 @@
 #include "TruncatedBinomialDistribution.h"
 #include <boost/lexical_cast.hpp>
-#include "includeMPFR.h"
+#include "includeMPFRTruncatedBinomial.h"
 #include <boost/random/binomial_distribution.hpp>
 #include <boost/math/distributions/binomial.hpp>
 namespace TruncatedBinomialDistribution

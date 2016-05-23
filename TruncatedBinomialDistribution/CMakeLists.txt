@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
-file(GLOB CppFiles *.cpp)
-file(GLOB HeaderFiles *.h)
+set(CppFiles TruncatedBinomialDistribution.cpp)
+set(HeaderFiles includeMPFRTruncatedBinomial.h serializeGMP.hpp TruncatedBinomialDistribution.h)
 add_library(truncatedBinomialDistribution ${CppFiles} ${HeaderFiles})
 target_include_directories(truncatedBinomialDistribution PRIVATE ${Boost_INCLUDE_DIRS})
 target_include_directories(truncatedBinomialDistribution PUBLIC ${PROJECT_SOURCE_DIR}/TruncatedBinomialDistribution)

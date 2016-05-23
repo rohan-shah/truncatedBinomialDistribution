@@ -1,6 +1,6 @@
 #ifndef SERIALIZE_GMP_HEADER_GUARD
 #define SERIALIZE_GMP_HEADER_GUARD
-#include "includeMPFR.h"
+#include "includeMPFRTruncatedBinomial.h"
 #include <boost/serialization/split_free.hpp>
 #include <iomanip>
 namespace boost

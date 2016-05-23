@@ -4,7 +4,7 @@
 #include <boost/noncopyable.hpp>
 #include <boost/random/mersenne_twister.hpp>
 #include <map>
-#include "includeMPFR.h"
+#include "includeMPFRTruncatedBinomial.h"
 namespace TruncatedBinomialDistribution
 {
 	class TruncatedBinomialDistribution : private boost::noncopyable
