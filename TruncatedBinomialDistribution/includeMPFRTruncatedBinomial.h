@@ -6,6 +6,6 @@
 #include <boost/multiprecision/mpfr.hpp>
 namespace TruncatedBinomialDistribution
 {
-	typedef boost::multiprecision::static_mpfr_float_50 mpfr_class;
+	typedef boost::multiprecision::mpfr_float mpfr_class;
 }
 #endif 
